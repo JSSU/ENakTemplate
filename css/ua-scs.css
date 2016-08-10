@@ -1,0 +1,18 @@
+﻿.ucascs .wf-page-title {
+    position : fixed;
+    z-index : 1000;
+    bottom : 0;
+    left : 0;
+    width : 100%;
+    padding : 0.5rem 2rem 0.5rem 40px;
+    margin : 0;
+    text-align : left;
+    background-color : #BB0826;
+    color : #fff;
+    font-size : 1.5rem;
+    font-weight : bold;
+    box-shadow : 0 -5px 5px rgba(0,0,0,0.2);
+    background-image : url('../img/favicon/favicon.png');
+    background-repeat : no-repeat;
+    background-position : 10px center;
+}

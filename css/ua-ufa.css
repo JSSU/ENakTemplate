@@ -1,0 +1,303 @@
+﻿html, body {
+    background-color: #FCFCFC;
+  
+}
+
+.mega-dropdown-top-padding {
+    padding: 20px 0 15px 0;
+}
+
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 10px 0;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wf-evenpadding {
+    padding: 15px 15px 7px 15px;
+}
+
+.wf-flag-underline {
+    text-decoration:underline;
+    padding: 5px 5px 5px 5px;
+}
+
+.wf-flag-underline:hover {
+    text-decoration : none;    
+}
+
+.wf-flag {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.wf-flag:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.btn-wf-flag-appbanner {
+    background-color : #ec1c29;
+    border-color: #e83e48;
+    color: #fff;
+}
+
+
+.btn-wf-flag-appbanner:hover,
+.btn-wf-flag-appbanner.focus,
+.btn-wf-flag-appbanner:focus,
+.btn-wf-flag-appbanner.active,
+.btn-wf-flag-appbanner:active {
+    background-color : #ec1c29;
+    border-color : #a8010c;
+    color: #fff;
+}
+
+.btn-wf-flag-appbanner:hover {
+    background-color : #c6000d;
+    border-color: #a8010c;
+}
+
+.wf-thead th {
+    font-family: Verdana;
+    font-size: .8rem;
+    font-weight: 100;
+    color: white;
+    background-color: #7d7d7d;
+    white-space: nowrap;
+    height: 20px;
+    text-align: left;
+}
+
+.table td {
+    text-align: left;
+}
+
+.wf-tbody {
+    font-family: Verdana;
+    font-size: .8rem;
+    font-weight: 100;
+    color: #ff0000;
+}
+
+.ufacfs .wf-checkbox {
+    padding-top: 25px;
+}
+
+.wf-ufacfs-history {
+    padding-top: 17px;
+}
+
+.ufacfs .wf-ufacfs-appbanner .wf-card-header,
+.ufacfs .wf-ufacfs-routing .wf-card-header {
+    background-color: #d5d5d5;
+}
+
+.project-context .wf-zero-margin-top {
+    margin-top: 0;
+}
+
+.ufacfs .wf-padding-right {
+    padding-right:0;
+}
+
+ .wf-ufacfs-key-min-height {
+    min-height: 449px;
+}
+.ufacfs #header h5 {
+   padding-top:5px;
+   padding-left:10px;
+
+}
+.wf-collapse-btn {
+    margin-top: 5px;
+}
+
+.wf-ufacfs-navbar {
+    padding: .5rem 0;
+}
+
+/* Pop Up */
+.ufacfs .wf-tbody {
+    font-family:Verdana;
+    font-size:12px;
+    font-weight:100;
+    color:#1ca4ff;
+}
+
+.ufacfs .wf-tfooter {
+    font-family:Verdana;
+    font-size:.75rem;
+    font-weight:100;
+    color:#4e4e4e;
+    padding:10px 25px 10px 10px;
+
+}
+
+.ufacfs .wf-thead th {
+    font-family: Verdana;
+    font-size: 1rem;
+    font-weight:100;
+    color: white;
+    background-color:#7d7d7d;
+    white-space: nowrap;
+    height: 40px;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+.ufacfs .tangiblebenefit-comments-container, 
+.ufacfs .tangiblebenefit-applicationinfo-container
+.ufacfs .payoffdetail-container,
+.ufacfs .payoffquote-container,
+.ufacfs .customerdisc-container,
+.ufacfs .selectable-container,
+.ufacfs .potentialdsc-container,
+.ufacfs .rate-container 
+{
+   min-height: 260px;
+}
+
+.ufacfs .rego-appinfo-container,
+.ufacfs .rego-applicant-container,
+.ufacfs .rego-coapplicant-container
+
+{
+   min-height: 280px;
+}
+
+.ufacfs .debtratio-container,
+.ufacfs .ratediscount-container {
+   min-height: 212px;
+}
+
+.ufacfs .wf-line {
+  border-bottom: 1px solid #c2c2c2;
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+
+.ufacfs .wf-padding-top {
+    padding-top:11px;
+}
+
+.ufacfs .v-scroll {
+    height:250px;
+    overflow-y:scroll;
+    
+}
+.wf-apphistory-table,
+.pipelineviewer-table {
+
+}
+
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_length,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_filter,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_info,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_paginate,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_length .input-sm,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_filter .input-sm,
+.apphistoryreport-container div.dataTables_wrapper div.dataTables_info .input-sm,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_length,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_filter,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_info,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_paginate,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_length .input-sm,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_filter .input-sm,
+.pipelineviewer-container div.dataTables_wrapper div.dataTables_info .input-sm,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_length,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_filter,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_info,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_paginate,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_length .input-sm,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_filter .input-sm,
+.vaidationerrors-container div.dataTables_wrapper div.dataTables_info .input-sm 
+ {
+    font-size : 0.8rem;
+}
+
+.ufacfs .addhistory-container .addhistory-table th,
+.ufacfs .addhistory-container .addhistory-table td,
+.ufacfs .pipelineviewer-container .pipelineviewer-table th,
+.ufacfs .pipelineviewer-container .pipelineviewer-table td,
+.ufacfs .vaidationerrors-container .pipelineviewer-table th,
+.ufacfs .vaidationerrors-container .pipelineviewer-table td
+ {
+    text-align : center;
+}
+
+.flags-container a .label {
+    transition: all 0.3s linear;
+}
+
+.flags-container a:hover .label {
+    background-color : #fff;
+    box-shadow : 0 1px 1px 1px rgba(0,0,0,0.25);
+}
+
+.flags-container a:hover .label.label-warning {
+    color : #f0ad4e;
+}
+
+.flags-container a:hover .label.label-danger {
+    color : #d9534f;
+}
+
+.flags-container a:hover .label.label-default {
+    color : #0275d8;
+}
+
+.flags-container a:hover .label.label-primary {
+    color : #818a91;
+}
+
+.flags-container a:hover .label.label-info {
+    color : #5bc0de;
+}
+
+.flags-container a:hover .label.label-success {
+    color : #5cb85c;
+}
+
+.cbr-container .form-control-static {
+    max-height: 420px;
+    overflow: auto;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Courier New, Courier, Monospace;
+    line-height: 1.2em;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.cbr-container .form-control-static:focus {
+    outline: none;
+    border-color: #ffc900;
+}
+
+.cbr-container .form-control-static .textHighlight {
+    color: #e83e48;
+}
+
+.cbr-container .form-control-static .Highlight {
+    background-color: #f7ff78;
+}
+
+.searchby-container .wf-c-indicator {
+    background-color: #B3B3B3;
+}
+
+.wf-newpullbtn {
+    line-height: 1.0;
+}
+
+.ufacfs .pipelineviewer-container .form-inline .form-control,
+.ufacfs .vaidationerrors-container .form-inline .form-control {
+    display: inline-block;
+    width: 98%;
+    vertical-align: middle;
+}

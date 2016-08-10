@@ -1,0 +1,96 @@
+﻿.ucra .wf-app-launch h3 {
+    margin: 0;
+}
+
+.ucra .wf-app-launch .wf-card {
+    /*border:3px solid #44464a;*/
+}
+
+.ucra .wf-app-launch .wf-card-header {
+    font-size : 1.4rem;
+}
+
+.ucra .wf-app-launch .wf-card-header img {
+    margin : 0 5px 0 0;    
+}
+
+.ucra .wf-app-launch .wf-card-header .btn-secondary-outline {
+    border : 0;
+    color : #fff;    
+}
+
+.ucra .wf-app-launch .wf-card .wf-app-bg,
+.ucra .wf-app-launch .wf-card .wf-card-block {
+    background-color:#cacac3;
+}
+
+.ucra .wf-tabs .tab-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wf-ucacs-cust1-container-collapse-btn {
+    display : block;
+    padding : 0 20px;
+    color: #aaa;
+    font-size: 26px;
+    /* line-height: 30px; */
+    margin: 0 auto 0 auto;
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    -o-border-radius: 3px 3px 0 0;
+    -khtml-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -o-box-shadow: 0 -4px 2px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0 -4px 2px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0 -4px 2px rgba(0,0,0,0.10);
+    box-shadow: 0 -4px 2px rgba(0,0,0,0.10);
+    position : absolute;
+    bottom : -0;
+    left : 45%;
+    border : solid 1px #e5e5e5;
+    border-bottom : 0;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.ucra .select2-container {
+    font-size : 0.8rem;
+}
+
+.ucra .select2-container .select2-selection--single {
+    height : 23px;
+}
+.ucra .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 23px;
+}
+
+.ucra .ucacs-nonoffer-eligibility-product-switch-container .radio input[type="radio"],
+.ucra .ucacs-nonoffer-eligibility-product-switch-container .checkbox input[type="checkbox"] {
+    margin-left : 0;
+}
+
+.ucra .ucacs-nonoffer-eligibility-error-modal,
+.ucra .ucacs-nonoffer-eligibility-product-error-modal {
+    top:40%;
+    z-index:9999;
+}
+
+.ucra .ucacs-nonoffer-eligibility-error-modal .modal-content,
+.ucra .ucacs-nonoffer-eligibility-product-error-modal .modal-content {
+    background-color : #e5e5e5;
+    border : solid 2px #999999;
+}
+
+.ucra .ucacs-nonoffer-eligibility-product-modal .modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.ucra .ucacs-nonoffer-eligibility-product-modal .modal-body .product2from-container .table-responsive {
+    overflow-y: auto;
+    max-height : 910px;    
+}

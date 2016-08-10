@@ -1,0 +1,97 @@
+﻿html, body {
+    background-color : #eaeaea;
+}
+
+.productspecific-container .nav-tabs .wf-normal-link,
+.productspecific-container .nav-tabs .wf-normal-link:focus,
+.productspecific-container .nav-tabs .wf-normal-link:hover {
+    background-color : transparent;
+    border-color : transparent;
+    color : #aaa;
+}
+
+.productspecific-container .nav-tabs .wf-normal-link:hover {
+    border-color: #eceeef #eceeef #ddd;
+}
+
+@media (min-width: 768px) {
+    /* Min height fix for all wf-cards*/
+    .discovery-container .wf-card,
+    .applicantpersonalinfo-container .wf-card {
+        min-height : 310px;
+    }
+    .contactinfo-container .wf-card,
+    .residentialaddress-container .wf-card,
+    .nonapplicantspouseinfo-container .wf-card,
+    .mailingaddress-container .wf-card,
+    .employmentinfo-container .wf-card,
+    .applicantincome-container .wf-card,
+    .idinfo-container .wf-card,
+    .previousaddress-container .wf-card,
+    .previousemploymentincome-container .wf-card {
+        min-height : 460px;
+    }
+    .coapppersonalinfo-container .wf-card,
+    .coappcontactinfo-container .wf-card {
+        min-height : 310px;
+    }
+    .coappresidentialaddress-container .wf-card,
+    .coappmailingaddress-container .wf-card,
+    .coappemploymentinfo-container .wf-card,
+    .coappnonapplicantspouseinfo-container .wf-card,
+    .coapplicantincome-container .wf-card,
+    .coappidinfo-container .wf-card,
+    .coapplicantincome-container .wf-card {
+        min-height : 498px;
+    }
+
+    .ucacs-auto .discovery-container .wf-card,
+    .ucacs-auto .applicantpersonalinfo-container .wf-card,
+    .ucacs-auto .coapppersonalinfo-container .wf-card,
+    .ucacs-auto .coappcontactinfo-container .wf-card {
+        min-height : 290px;
+    }
+
+    .ucacs-auto .contactinfo-container .wf-card,
+    .ucacs-auto .residentialaddress-container .wf-card,
+    .ucacs-auto .nonapplicantspouseinfo-container .wf-card,
+    .ucacs-auto .mailingaddress-container .wf-card,
+    .ucacs-auto .employmentinfo-container .wf-card,
+    .ucacs-auto .applicantincome-container .wf-card,
+    .ucacs-auto .idinfo-container .wf-card,
+    .ucacs-auto .previousaddress-container .wf-card,
+    .ucacs-auto .previousemploymentincome-container .wf-card,
+    .ucacs-auto .applicantincome-container .wf-card {
+        min-height : 460px;
+    }
+
+    .ucacs-auto .coappresidentialaddress-container .wf-card,
+    .ucacs-auto .coappmailingaddress-container .wf-card,
+    .ucacs-auto .coapppreviousaddress-container .wf-card,
+    .ucacs-auto .coappemploymentinfo-container .wf-card,
+    .ucacs-auto .coappnonapplicantspouseinfo-container .wf-card,
+    .ucacs-auto .coapplicantincome-container .wf-card,
+    .ucacs-auto .coappidinfo-container .wf-card,
+    .ucacs-auto .coapplicantincome-container .wf-card {
+        min-height : 463px;
+    }
+
+    .ucacs-auto .tradeinInfo-container .wf-card {
+        min-height : 195px;
+    }
+
+    .ucacs-auto .lienholder-container .wf-card,
+    .ucacs-auto .privateparty-container .wf-card {
+        min-height : 345px;
+    }
+
+    .ucacs-auto .paymentservices-container .wf-card,
+    .ucacs-auto .closingdate-container .wf-card {
+        min-height : 313px;
+    }
+
+    .ucacs-auto .contactverifyinfo-container .wf-card,
+    .ucacs-auto .docmailingaddress-container .wf-card {
+        min-height : 242px;
+    }
+}

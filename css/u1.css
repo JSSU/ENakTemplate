@@ -1,0 +1,27 @@
+﻿.btn-wf {
+    background-color : #c60020;
+    border-color: #820216;
+    color: #fff;
+}
+
+.btn-wf:active,
+.btn-wf.active,
+.btn-wf:focus,
+.btn-wf.focus,  
+.btn-wf:hover {
+        background-color : #ff0300;
+        border-color: #820216;
+}
+
+.btn-wf:focus {
+    box-shadow : 0 0 4px 2px rgba(248,90,0,0.8);
+}
+
+.jumbotron.bg-wf h1, 
+.jumbotron.bg-wf .h1 {
+    font-size: 3.7em;
+}
+
+.wf-launcher-card .card-text {
+    font-size: 0.85rem;
+}

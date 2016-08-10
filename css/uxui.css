@@ -1,0 +1,100 @@
+﻿.footer {
+    height : auto;
+}
+
+.wf-header {
+    border-bottom: solid 1px #c60020;
+    color : #c60020;
+}
+
+.form-control:focus {
+    border-color: #333;
+    outline: none;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(51,51,51,1);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(51,51,51,1);
+    box-shadow: 0px 0px 7px 0px rgba(51,51,51,1);
+}
+
+.form-buttons {
+    background-color: #93051c;
+    background-image: -ms-linear-gradient(top right, rgba(198,0,32,1) 0%, rgba(147,5,28,1) 100%);
+    background-image: -moz-linear-gradient(top right, rgba(198,0,32,1) 0%, rgba(147,5,28,1) 100%);
+    background-image: -o-linear-gradient(top right, rgba(198,0,32,1) 0%, rgba(147,5,28,1) 100%);
+    background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, rgba(198,0,32,1)), color-stop(100, rgba(147,5,28,1)));
+    background-image: -webkit-linear-gradient(top right, rgba(198,0,32,1) 0%, rgba(147,5,28,1) 100%);
+    background-image: linear-gradient(to bottom left, rgba(198,0,32,1) 0%, rgba(147,5,28,1) 100%);
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+
+.btn-wf {
+    background-color : #c60020;
+    border-color: #93051c;
+    color: #fff;
+    font-weight : bold;
+}
+
+.btn-wf:active,
+.btn-wf:focus,
+.btn-wf:visited,
+.btn-wf:hover
+{
+    background-color : #e50008;
+    border-color: #c60020;
+    color: #fff;
+}
+
+.btn-wf:hover {
+    color: #ffc900;
+}
+
+.progress[value] {
+    color: #c60020;
+}
+
+.progress[value]::-webkit-progress-value {
+  background-color: #c60020;
+}
+
+@media screen and (min-width: 0 \0) {
+  .progress-bar {
+    background-color: #c60020;
+  }
+}
+
+.card-header {
+}
+
+.card-block h3 {
+    margin-top : 5px;
+    margin-bottom : 2px;
+}
+
+.breadcrumb-container .breadcrumb {
+    background-color: #ccc;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.footer .content-copyright {
+    background-color: #3f464c;
+    background-color : rgba(63,70,76,1);
+    background-image: -ms-linear-gradient(top right, rgba(63,70,76,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: -moz-linear-gradient(top right, rgba(63,70,76,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: -o-linear-gradient(top right, rgba(63,70,76,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, rgba(63,70,76,1)), color-stop(100, rgba(0,0,0,1)));
+    background-image: -webkit-linear-gradient(top right, rgba(63,70,76,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(to bottom left, rgba(63,70,76,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.nav-tabs .nav-link {
+    -khtml-border-radius : 0;
+    -webkit-border-radius : 0;
+    -moz-border-radius : 0;
+    border-radius : 0;
+}
+
+.nav-tabs a.nav-link:hover {
+  color: #808080;
+}
